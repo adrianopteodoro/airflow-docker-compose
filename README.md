@@ -10,4 +10,5 @@ Add your DAGs on dags folder, to create our own use the example of `dags/twodotz
 
 To add more [*AIRFLOW ENV*](https://airflow.apache.org/docs/apache-airflow/stable/configurations-ref.html) variables just add to `.env` file
 
-Access Airflow UI by [`http://localhost:8080`](http://localhost:8080)
+Access Airflow UI by [`http://localhost:8080`](http://localhost:8080) 
+The default user is `admin` and password is `admin`
