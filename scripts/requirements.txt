@@ -1,0 +1,4 @@
+pybreaker
+simplejson
+kubernetes
+tenacity
