@@ -4,6 +4,8 @@ Based over this [guide](https://towardsdatascience.com/apache-airflow-and-postgr
 
 ## Usage
 
+First you need to build docker image with `docker-compose build`
+
 To execute just run on shell `docker-compose up` over the root of this repository
 
 Add your DAGs on dags folder, to create your own use the example of `dags/twodotzero.py` that uses new Apache Airflow 2 format
