@@ -4,3 +4,7 @@ __pycache__/
 *.log
 latest
 *.pyc
+.env
+airflow.cfg
+unittests.cfg
+webserver_config.py

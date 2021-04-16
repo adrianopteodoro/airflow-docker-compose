@@ -8,7 +8,8 @@ services:
         ports:
             - "5432:5432"
     service:
-        image: apache/airflow:2.0.0-python3.7
+        build: .
+        image: airflow-docker-compose
         entrypoint: ./scripts/entrypoint.sh
         depends_on:
             - postgres

@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-echo "---- INSTALL REQUIREMENTS ----"
-python3 -m pip install -r $AIRFLOW_HOME/scripts/requirements.txt
 echo "---- AIRFLOW CLEAR OLD PID ----"
 rm -vf $AIRFLOW_HOME/*.pid
 echo "---- AIRFLOW DB INIT ----"

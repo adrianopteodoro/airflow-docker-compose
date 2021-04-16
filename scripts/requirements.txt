@@ -1,4 +1,6 @@
 pybreaker
 simplejson
-kubernetes
 tenacity
+-e git+https://github.com/kubernetes-client/python.git@release-15.0#egg=kubernetes
+slack
+slackclient
