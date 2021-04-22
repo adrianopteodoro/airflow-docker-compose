@@ -8,3 +8,4 @@ latest
 airflow.cfg
 unittests.cfg
 webserver_config.py
+airflow.db
